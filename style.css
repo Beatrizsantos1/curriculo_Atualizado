@@ -1,0 +1,355 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+#coluna_um {
+  background-color: #e6ccc8;
+}
+#nome_autora {
+  display: none;
+}
+#foto_autora img {
+  margin: 51px;
+  width: 70%;
+}
+
+.contoto {
+  display: flex;
+  margin-left: 51px;
+  margin-bottom: 12px;
+}
+.contoto a {
+  text-decoration: none;
+  color: #000000;
+}
+#titulo_contato {
+  margin-bottom: 32px;
+  margin-left: 56px;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+
+#tel a {
+  margin-top: 10px;
+  margin-left: 9px;
+}
+#email img {
+  width: 11%;
+  margin-left: 3px;
+}
+#email a {
+  margin-top: 10px;
+  margin-left: 9px;
+}
+
+#linkendir img {
+  width: 13%;
+}
+#linkendir a {
+  margin-top: 10px;
+  margin-left: 9px;
+}
+
+#github img {
+  width: 11%;
+  margin-left: 4px;
+}
+#github a {
+  margin-top: 7px;
+  margin-left: 15px;
+}
+
+#localizar img {
+  width: 13%;
+}
+#localizar a {
+  margin-top: 10px;
+  margin-left: 9px;
+}
+
+#titulo_tec {
+  margin-bottom: 32px;
+  margin-left: 56px;
+  margin-top: 50px;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+#primeira_parte_ferramentas {
+  display: flex;
+  margin-left: 51px;
+  margin-bottom: 10px;
+}
+#primeira_parte_ferramentas img {
+  width: 17%;
+}
+#segunda_parte_ferramentas {
+  display: flex;
+  margin-left: 51px;
+}
+#segunda_parte_ferramentas img {
+  width: 17%;
+}
+
+.img_meio {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+#titulo_edu {
+  margin-bottom: 24px;
+  margin-left: 56px;
+  margin-top: 50px;
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+
+#educacao_texto {
+  margin-left: 51px;
+  padding-bottom: 5px;
+}
+#texto_meio {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+#educacao_texto p {
+  font-family: "Merriweather", serif;
+}
+
+/*Coluna 2*/
+#coluna_dois {
+  margin-left: 80px;
+}
+#nome {
+  font-family: "Playfair Display", serif;
+}
+h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+#primeiro_h1 {
+  margin-top: 35px;
+}
+#nome p {
+  font-family: "Merriweather", serif;
+  margin-top: 24px;
+  padding-bottom: 36px;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+hr {
+  width: 50%;
+  color: #e6ccc8;
+  border: solid;
+  margin-bottom: 30px;
+}
+
+#obj h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+#obj p {
+  font-family: "Merriweather", serif;
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 1.4rem;
+}
+
+#exper h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+#exper li {
+  font-family: "Merriweather", serif;
+  font-size: 1.4rem;
+  margin-top: 5px;
+}
+#exper h4 {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#exper p {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+#edu_comple h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 3rem;
+}
+
+#edu_comple li {
+  font-family: "Merriweather", serif;
+  font-size: 1.4rem;
+  margin-top: 5px;
+}
+
+#edu_comple p {
+  font-family: "Merriweather", serif;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 320px) {
+  main {
+    display: block;
+  }
+  #coluna_um {
+    width: 100vw;
+    background-color: #ffffff;
+  }
+  #nome {
+    display: none;
+  }
+
+  #paginaInicial_movel {
+    border: solid 2px red;
+    height: 100vh;
+    background-color: #e6ccc8;
+  }
+
+  #nome_autora {
+    display: block;
+  }
+  #foto_autora img {
+    margin-top: 19px;
+  }
+  h1 {
+    font-size: 1rem;
+    margin-bottom: 13px;
+    text-align: center;
+    margin-top: 21px;
+  }
+  #primeiro_h1 {
+    margin-top: -23px;
+  }
+  #titulo_contato {
+    display: none;
+  }
+  .contoto {
+    margin-left: 7%;
+    margin-bottom: 12px;
+  }
+
+  #tel img {
+    width: 9%;
+    height: 2%;
+  }
+  #tel a {
+    margin-top: 5px;
+    margin-left: 9px;
+    font-size: 12px;
+  }
+  #email img {
+    width: 7%;
+    height: 2%;
+  }
+  #email a {
+    margin-top: 1px;
+    margin-left: 9px;
+  }
+
+  #linkendir img {
+    width: 9%;
+    height: 2%;
+  }
+  #linkendir a {
+    margin-top: 3px;
+    margin-left: 9px;
+  }
+
+  #github img {
+    width: 8%;
+    height: 2%;
+  }
+  #github a {
+    margin-top: 0px;
+    margin-left: 9px;
+  }
+
+  #localizar img {
+    width: 10%;
+    height: 2%;
+  }
+  #localizar a {
+    margin-top: -6px;
+    margin-left: 9px;
+  }
+  #titulo_tec {
+    margin-top: 17px;
+    font-size: 2rem;
+  }
+  #titulo_edu {
+    font-size: 2rem;
+  }
+  #obj h2,
+  #exper h2 {
+    font-size: 2rem;
+    margin-left: -25px;
+  }
+  #obj p {
+    margin-left: -31px;
+    font-size: 1rem;
+    width: 100%;
+    border: solid red;
+  }
+}
+
+/* AMANHA TERMINAR:
+1- MEXER NO TAMANHO DOS ICONES DOS CONTATOS
+2- MEXER TIPO DA FONTE E COR
+
+
+@media screen and (max-width: 767px) {
+  main {
+    display: block;
+  }
+
+  #coluna_um {
+    width: 100vw;
+  }
+  #nome {
+    display: none;
+  }
+  #nome_autora {
+    display: block;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-left: 41px;
+    margin-right: 41px;
+  }
+  #nome_autora p {
+    margin-left: 41px;
+    margin-right: 19px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+  }
+
+  #primeiro_h1 {
+    margin-top: 1px;
+  }
+  hr {
+    display: none;
+  }
+  #coluna_dois {
+    margin-left: 43px;
+    margin-right: 43px;
+  }
+  #obj p {
+    width: 100%;
+  }
+}
+
+*/
